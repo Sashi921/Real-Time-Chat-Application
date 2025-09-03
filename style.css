@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+#messages {
+  border: 1px solid #555;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  background: #1e293b;
+}
+
+.msg {
+  margin: 5px 0;
+}
+
+#users {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #22c55e;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
